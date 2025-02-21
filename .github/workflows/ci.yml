@@ -1559,9 +1559,9 @@ jobs:
             nios2-zephyr-elf)
               PLATFORM_ARGS+="-p qemu_nios2 "
               ;;
-            or1k-zephyr-elf)
-              PLATFORM_ARGS+="-p qemu_or1k "
-              ;;
+            #or1k-zephyr-elf)
+            #  PLATFORM_ARGS+="-p qemu_or1k "
+            #  ;;
             riscv64-zephyr-elf)
               PLATFORM_ARGS+="-p qemu_riscv32 "
               PLATFORM_ARGS+="-p qemu_riscv32e "
